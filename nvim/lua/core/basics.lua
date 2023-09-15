@@ -1,4 +1,7 @@
 vim.g.mapleader = " "
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.o.number  = true
 vim.o.relativenumber = false
 vim.o.wrap = false
@@ -21,6 +24,8 @@ vim.o.showmode = false
 vim.o.showtabline = 4
 vim.o.signcolumn = 'yes'
 vim.o.mouse = 'a'
+
+vim.opt.termguicolors = true
 
 vim.keymap.set('n', '<S-h>', '<C-w>h')
 vim.keymap.set('n', '<S-j>', '<C-w>j')
@@ -53,3 +58,8 @@ vim.keymap.set('n', '<leader>5', '<cmd>vsplit<CR>', { noremap = true })
 vim.keymap.set('n', '<leader>\'', '<cmd>split<CR>', { noremap = true })
 
 vim.keymap.set('n', '<leader>n', '<cmd>b#<CR>', { noremap = true })
+
+vim.api.nvim_set_keymap('n', '<leader>i', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>s', '<cmd>lua require("harpoon.mark").add_file()<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>a', '<cmd>lua require("harpoon.ui").nav_prev()<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>d', '<cmd>lua require("harpoon.ui").nav_next()<CR>', { noremap = true })
