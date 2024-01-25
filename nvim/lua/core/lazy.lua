@@ -17,6 +17,7 @@ require("lazy").setup({
     { import = "plugins/catppuccin" },
     { import = "plugins/lualine" },
     { import = "plugins/indent-blankline" },
+    { import = "plugins/lazygit" },
     { import = "plugins/tabline" },
     { import = "plugins/telescope" },
     { import = "plugins/tree" },

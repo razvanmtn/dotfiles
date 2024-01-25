@@ -34,7 +34,7 @@ vim.keymap.set('n', '<S-l>', '<C-w>l')
 
 vim.keymap.set('n', '<leader>f', '<cmd>lua require("telescope.builtin").current_buffer_fuzzy_find()<CR>', { noremap = true })
 
-vim.keymap.set('n', '<leader>g', "<cmd>lua require('telescope.builtin').git_status()<CR>", { noremap = true })
+vim.keymap.set('n', '<leader>g', "<Plug>(lazygit.nvim)", { noremap = true })
 
 vim.keymap.set('n', '<leader>p', '<cmd>lua require("telescope.builtin").find_files()<CR>', { noremap = true })
 vim.keymap.set('n', '<leader>o', '<cmd>lua require("telescope.builtin").oldfiles()<CR>', { noremap = true })

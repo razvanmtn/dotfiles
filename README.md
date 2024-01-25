@@ -9,6 +9,9 @@ My dotfiles configuration. Instalation steps:
 - Color palette:
   - Background color: `#182026`
 
+## Install Alacritty (iterm2 alternative)
+- `https://alacritty.org/`
+
 ## Install fish
 - Install fish shell: `brew install fish`
 - Check fish path: `which fish`
@@ -45,3 +48,5 @@ My dotfiles configuration. Instalation steps:
 - Run `brew install --cask visual-studio-code`
 - Run `sudo npm install -g typescript typescript-language-server`
 - Run `sudo npm i -g vscode-langservers-extracted`
+- Run `brew install yt-dlp`
+- Run `brew install ffmpeg`
