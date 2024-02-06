@@ -15,6 +15,11 @@ return {
             filters = {
                 dotfiles = false,
             },
+            git = {
+                enable = true,
+                ignore = false,
+                timeout = 400,
+            },
         })
     end,
 }
