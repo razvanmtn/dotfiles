@@ -47,6 +47,7 @@ My dotfiles configuration. Instalation steps:
 - Run: `brew install fd`
 - Run `brew install --cask visual-studio-code`
 - Run `sudo npm install -g typescript typescript-language-server`
-- Run `sudo npm i -g vscode-langservers-extracted`
+- Run `sudo npm install -g vscode-langservers-extracted`
+- Run `sudo npm install -g @razvanmuntian/pomodoro`
 - Run `brew install yt-dlp`
 - Run `brew install ffmpeg`
