@@ -23,6 +23,7 @@ My dotfiles configuration. Instalation steps:
 - Run: `curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher`
 - Install fisher plugins: `fisher install ilancosman/tide@v6`
 - Install fisher plugins: `fisher install edc/bass`
+- Install fisher plugins: `fisher install jorgebucaran/nvm.fish`
 
 ## Install nvm
 - Run: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`
