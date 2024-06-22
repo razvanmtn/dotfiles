@@ -21,7 +21,7 @@ My dotfiles configuration. Instalation steps:
 
 ## Install fisher
 - Run: `curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher`
-- Install fisher plugins: `fisher install ilancosman/tide@v5`
+- Install fisher plugins: `fisher install ilancosman/tide@v6`
 - Install fisher plugins: `fisher install edc/bass`
 
 ## Install nvm
