@@ -27,10 +27,10 @@ vim.o.mouse = 'a'
 
 vim.opt.termguicolors = true
 
-vim.keymap.set('n', '<S-h>', '<C-w>h')
-vim.keymap.set('n', '<S-j>', '<C-w>j')
-vim.keymap.set('n', '<S-k>', '<C-w>k')
-vim.keymap.set('n', '<S-l>', '<C-w>l')
+vim.keymap.set('n', '<leader>h', '<C-w>h')
+vim.keymap.set('n', '<leader>j', '<C-w>j')
+vim.keymap.set('n', '<leader>k', '<C-w>k')
+vim.keymap.set('n', '<leader>l', '<C-w>l')
 
 vim.keymap.set('n', '<leader>f', '<cmd>lua require("telescope.builtin").current_buffer_fuzzy_find()<CR>', { noremap = true })
 
