@@ -46,6 +46,7 @@ My dotfiles configuration. Instalation steps:
 - Run `brew install lazygit`
 - Run: `brew install ripgrep`
 - Run: `brew install fd`
+- Run: `brew install btop`
 - Run `brew install --cask visual-studio-code`
 - Run `sudo npm install -g typescript typescript-language-server`
 - Run `sudo npm install -g vscode-langservers-extracted`
