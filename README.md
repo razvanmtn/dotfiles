@@ -53,3 +53,4 @@ My dotfiles configuration. Instalation steps:
 - Run `sudo npm install -g @razvanmuntian/pomodoro`
 - Run `brew install yt-dlp`
 - Run `brew install ffmpeg`
+- Run `brew install go`
