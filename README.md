@@ -45,6 +45,7 @@ My dotfiles configuration. Instalation steps:
 ## Install misc tools
 - Run `brew install lazygit`
 - Run: `brew install ripgrep`
+- Run: `brew install fzf`
 - Run: `brew install fd`
 - Run: `brew install btop`
 - Run `brew install --cask visual-studio-code`
