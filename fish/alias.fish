@@ -9,3 +9,5 @@ alias "config" "cd ~/.config; vim"
 alias "lg" "lazygit"
 
 alias "learn" "sh ~/.config/scripts/navigate.sh ~/Projects/learn/projects"
+
+alias "wf" "write-to-file-cli"
