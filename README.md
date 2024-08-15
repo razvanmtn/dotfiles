@@ -55,4 +55,5 @@ My dotfiles configuration. Instalation steps:
 - Run `brew install yt-dlp`
 - Run `brew install ffmpeg`
 - Run `brew install go`
+- Run `brew install gnupg`
 - Run `go install github.com/razvanmtn/write-to-file-cli@latest`
