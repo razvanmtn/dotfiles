@@ -44,3 +44,6 @@ style = "Light"
 [font.bold]
 family = "VictorMono Nerd Font"
 style = "Regular"
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
