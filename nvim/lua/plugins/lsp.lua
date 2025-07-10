@@ -15,7 +15,7 @@ return {
             require("mason").setup()
             require("mason-lspconfig").setup({
                 ensure_installed = {
-                    "tsserver",
+                    "ts_ls",
                     "dockerls",
                     "cssls",
                     "html",
@@ -23,14 +23,12 @@ return {
                     "cssls",
                     "yamlls",
                     "jsonls",
-                    "gopls",
-                    "rust_analyzer",
                 },
             })
 
             local lspConfig = require("lspconfig");
             
-            lspConfig.tsserver.setup{}
+            lspConfig.ts_ls.setup{}
             lspConfig.dockerls.setup{}
             lspConfig.cssls.setup{}
             lspConfig.html.setup{}
@@ -39,31 +37,6 @@ return {
             lspConfig.yamlls.setup{}
             lspConfig.jsonls.setup{}
             lspConfig.sqlls.setup{}
-            lspConfig.gopls.setup{}
-            lspConfig.rust_analyzer.setup{
-                on_attach=on_attach,
-                settings = {
-                    ['rust-analyzer'] = {
-                        diagnostics = {
-                            enable = true;
-                        },
-                        imports = {
-                            granularity = {
-                                group = "module",
-                            },
-                            prefix = "self",
-                        },
-                        cargo = {
-                            buildScripts = {
-                                enable = true,
-                            },
-                        },
-                        procMacro = {
-                            enable = true
-                        }
-                    }
-                }
-            }
         end,
     },
 }
