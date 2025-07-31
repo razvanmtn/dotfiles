@@ -26,12 +26,16 @@ magenta = '#ff92d0'
 cyan    = '#9aedfe'
 white   = '#e6e6e6'
 
+[window]
+opacity = 0.9
+blur = true
+
 [font]
 size = 16
 
 [font.offset]
 x = 1
-y = -2
+y = 0
 
 [font.glyph_offset]
 x = 1
