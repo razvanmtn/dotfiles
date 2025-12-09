@@ -70,18 +70,6 @@ return {
                 filetypes = { 'sql', 'mysql' },
                 root_markers = { '.git' },
             })
-
-            -- Enable LSP on appropriate filetypes
-            vim.api.nvim_create_autocmd('FileType', {
-                pattern = {
-                    'javascript', 'javascriptreact', 'typescript', 'typescriptreact',
-                    'dockerfile', 'css', 'scss', 'less', 'html', 'yaml', 'yml',
-                    'json', 'jsonc', 'sql', 'mysql'
-                },
-                callback = function()
-                    vim.lsp.enable()
-                end,
-            })
         end,
     },
 }
