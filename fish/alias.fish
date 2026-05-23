@@ -11,3 +11,6 @@ alias "lg" "lazygit"
 alias "learn" "sh ~/.config/scripts/navigate.sh ~/Projects/learn/projects"
 
 alias "wf" "write-to-file-cli"
+
+alias "gs" "git status"
+alias "gl" "git log --oneline -20"
